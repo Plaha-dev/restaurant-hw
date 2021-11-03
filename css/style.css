@@ -86,7 +86,18 @@ table {
     text-decoration: none;
 }
 
+.header__mobile-btn{
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 4px;
 
+}
+.header__mobile-btn div{
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
+}
 .header__menu {
     display: flex;
     align-items: center;
@@ -127,7 +138,7 @@ table {
     font-weight: normal;
     color: #D67E35;
     margin-top: 203px;
-    width: 500px;
+    max-width: 500px;
 }
 
 .header__title h2 {
@@ -185,6 +196,8 @@ table {
 
 .eat__items {
     display: flex;
+    position: relative;
+    bottom: 90px;
 
 
 }
